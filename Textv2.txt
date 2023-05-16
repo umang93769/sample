@@ -1,9 +1,0 @@
-Scenario 1:
-Given a function that takes two numbers and returns the sum of those numbers
-
-Test Case 1: 
-describe("sum", function() { 
-    it("should return the sum of two numbers", function() { 
-        expect(sum(2,3)).toEqual(5); 
-    }); 
-});
