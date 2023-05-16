@@ -1,15 +1,17 @@
-describe('ButtonComponent', () => {
-  let component: ButtonComponent;
+describe('ButtonComponentComponent', () => {
+  let component: ButtonComponentComponent;
 
   beforeEach(() => {
-    component = new ButtonComponent();
+    component = new ButtonComponentComponent();
   });
 
-  it('should log when button is clicked', () => {
-    spyOn(console, 'log');
+  it('should set showMessage to true when handleClick is called', () => {
+    component.handleClick();
+    expect(component.showMessage).toBeTruthy();
+  });
 
-    component.handleButtonClick();
-
-    expect(console.log).toHaveBeenCalledWith('Button clicked!');
+  it('should set message to "Button clicked!" when handleClick is called', () => {
+    component.handleClick();
+    expect(component.message).toEqual('Button clicked!');
   });
 });
