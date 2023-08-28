@@ -1,0 +1,74 @@
+Hello Everyone, Hope you all having a good day 
+
+I am Umang Singhal , and will be prsenting the team The turing Tribe. 
+
+The problem statement which we are pursuing is Developing Robust Models and Tools to Uncover Misleading Investment Claims by Influencers.
+
+
+Promblem Statement
+
+The rapid spread of digital platforms has led to a concerning increase in deceptive investment claims from self-proclaimed influencers.
+
+Proposed Solution
+
+We reliased that the medium of most of this claims comes from social media which includes your whatsapp forwards,articles, reels & youtube shorts.
+
+Our proposal was to build a end-to-end solution which can be integrated with social media where such claims can be classified on the first hand basis for the investors.
+
+Main Architecture diagram:
+
+The method that we took to identify whether the claim is true or false is by building a LLM Model built on underlying embedding model which was trained on 
+
+commonly available data specifically with official SEBI regulations & guildlines and press releases updated in real time.
+
+we've have used latest prompt engineering techniques and libraries to fine tune and guide the llm into making detailed analyses of our input content.
+
+
+This LLM Model can act as single point of source for our chat-bots and hosted web interface and plugins for websites like moneycontrol.
+
+The infastructure of our solution built on cloud which makes it easier to scale & readliy available.
+
+
+Our Solution can be implemented in varous ways:
+
+First would be end-user experience through our website or chatbot where a person can come to our solution provided the respective content and can know about the claim.
+
+Second would be this solution can be integrated by social media apps itself where they can restrict the fin-influencers from uploading videos about mis-leading claims or it can act as a tool for fin-fluencers helping them know whether their content is within the guidlines of sebi or not.
+
+Lastly It can be directly be consumed by content regulatory bodies such as Sebi.
+
+
+So Let's just move on to the demo
+
+To make it simple we already have a video.
+
+Now we will test our solution to determine whether the claim made by the person is true or false.
+
+Here it will to the analysis. 
+
+The solution has Categorize this claim under false category meaning that claim by the fininfluencer is false.to make this Holistic and Nuance Analysis of the input content we used specially curated metrics. 
+
+Next is Confidence Score which signifies that model is 70% confidence of its analysis.
+
+Next is Descriptives which describes the nature of the video. The words are slected from a vast basket of words which are specifically curated
+
+Next we have is claim anlysis and verdict resoning. So this allows user to go through the multiple claims in the vodeo and go thorugh each justification and resoning made on the claim. 
+
+Next is the Document Reference these are the documents which has been published by sebi which the model referred to make it analysis. This can helps users for in-dept understanding. 
+
+Lastly we have our Q&A Section.
+
+first is the video Q&A section which helps you to ask questions regarding the input video.
+
+second is the document Q&A section here you can ask questions against the documents published by sebi time to time.this allows user to get tailored understanding of the content. Not only that, This feature can also help users to increasre their understanding & knowledge on sebi regulations by asking questtions irrespective of video content.
+
+
+Video Q&A:
+What this person is trying to claim in this video?
+
+Document Q&A:
+Is there any proposal to curb retail participation in derivative markets?
+
+
+As you can see this is the press release of SBI where they have made a press released on the same claim on which we tested our solution.
+And as you can see in there press release 
